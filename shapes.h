@@ -33,18 +33,18 @@ public:
 	}
 };
 
-class triangle : public Shape {
+class Triangle : public Shape {
 public:
-	triangle(double a = 0, double b = 0) :Shape(a, b) { }
+	Triangle(double a = 0, double b = 0) :Shape(a, b) { }
 
 	double area() {
 		return (width * height * 0.5);
 	}
 };
 
-class circle : public Shape {
+class Circle : public Shape {
 public:
-	circle(double a = 0, double b = 0) :Shape(a, b) { }
+	Circle(double a = 0, double b = 0) :Shape(a, b) { }
 
 	double area() {
 		return (width * PI * width);
